@@ -1,0 +1,32 @@
+.intro-animated-logo-google,
+.intro-animated-logo-atlassian,
+.intro-animated-logo-asana {
+  animation: appear-right 4s 0s 1;
+}
+
+@keyframes appear-right {
+  from {
+    opacity: 0;
+    transform: translateX(500px);
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+.intro-animated-logo-paypal,
+.intro-animated-logo-google-ads,
+.intro-animated-logo-weave,
+.intro-animated-logo-calendar {
+  animation: appear-bottom 4s 0s 1;
+}
+
+@keyframes appear-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(500px);
+  }
+  to {
+    opacity: 100;
+  }
+}
