@@ -628,6 +628,7 @@ section {
   display: flex;
   gap: 20px;
   padding: 20px;
+  width: 50%;
   border: 1px solid #ffffff;
 }
 
